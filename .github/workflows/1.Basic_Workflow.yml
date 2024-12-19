@@ -10,3 +10,6 @@ jobs:
 
       - name: Checkout the repo
         uses: actions/checkout@v4
+
+      - name: List the content of repo
+        run: ls ${{ github.workspace }}
