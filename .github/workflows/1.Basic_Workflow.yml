@@ -7,3 +7,5 @@ jobs:
     steps:
       - name: Starting workflow
         run: echo "Starting first workflow"
+
+      - name: Checkout the repo
