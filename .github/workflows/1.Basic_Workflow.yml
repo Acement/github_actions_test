@@ -9,3 +9,4 @@ jobs:
         run: echo "Starting first workflow"
 
       - name: Checkout the repo
+        uses: actions/checkout@v4
