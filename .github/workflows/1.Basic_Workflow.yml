@@ -15,3 +15,8 @@ jobs:
         run: |
           echo "Lista de archivos dentro del repo"
           ls ${{ github.workspace }}
+      
+      - name: Instalando python
+        uses: actions/setup-python@v4
+        with:
+            python-version: '3.11'
